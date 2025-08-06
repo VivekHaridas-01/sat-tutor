@@ -1,8 +1,8 @@
-# 🎓 SAT Tutor Model - Local Setup Guide
+# SAT Tutor Model - Local Setup Guide
 
 This guide will help you run the fine-tuned SAT Tutor model locally using Ollama.
 
-## 📋 Prerequisites
+## Prerequisites
 
 - **Ollama** installed on your system
 - **Git** (for cloning the repository)
@@ -23,7 +23,7 @@ curl -fsSL https://ollama.ai/install.sh | sh
 **Windows:**
 Download from [https://ollama.ai/download](https://ollama.ai/download)
 
-## 🚀 Quick Setup
+## Quick Setup
 
 1. **Create the model directory:**
 ```bash
@@ -52,7 +52,7 @@ After setup, your Ollama models directory should look like:
       └── model.gguf
 ```
 
-## 🎯 Usage Examples
+## Usage Examples
 
 ### Interactive Chat
 ```bash
