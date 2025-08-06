@@ -2,14 +2,14 @@
 
 An intelligent SAT prep tutor built using **Gemma 3N** fine-tuned with **Unsloth AI**. This project creates a specialized AI assistant capable of solving and explaining SAT math and reasoning problems.
 
-## 🎯 Features
+## Features
 
 - **Subject-Specific Training**: Fine-tuned specifically for SAT math and reasoning problems
 - **Multi-Format Support**: Handles various question types including algebra, geometry, and word problems
 - **Step-by-Step Explanations**: Provides detailed solutions with clear explanations
 - **Multiple Deployment Options**: Can be run locally using Ollama or on Hugging Face Spaces
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 sat-tutor/
@@ -26,7 +26,7 @@ sat-tutor/
 └── README.md                 # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Option 1: Hugging Face Spaces (Recommended for Demo)
 
