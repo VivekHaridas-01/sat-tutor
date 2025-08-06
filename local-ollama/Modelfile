@@ -1,0 +1,14 @@
+# Use GGUF directly
+FROM /Users/vivekharidas/Desktop/sat-tutor_gemma3n/fine-tune-gemma3n/sat-tutor-gemma3n-merged.Q8_0.gguf
+
+# (Optional) Match the prompt style you trained with (Unsloth turns)
+TEMPLATE """<start_of_turn>user
+{{ .Prompt }}
+<start_of_turn>model
+"""
+
+# Useful runtime parameters
+PARAMETER num_ctx 4096
+PARAMETER temperature 0.7
+PARAMETER top_p 0.95
+PARAMETER top_k 64
